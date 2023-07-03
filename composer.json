@@ -1,6 +1,8 @@
 {
     "name": "bhcosta90/ms-api-php-package",
     "description": "Pacote para trabalhar com o domínio da aplicação que vai envolver a API do Full Cycle",
+    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "BRCas\\AC\\": "src/"
