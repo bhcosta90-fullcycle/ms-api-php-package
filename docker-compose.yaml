@@ -5,6 +5,8 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
+      args:
+          WWWGROUP: '${WWWGROUP}'
     working_dir: /var/www
     volumes:
       - ./:/var/www

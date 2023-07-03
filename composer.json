@@ -3,8 +3,7 @@
     "description": "Pacote para trabalhar com o domínio da aplicação que vai envolver a API do Full Cycle",
     "autoload": {
         "psr-4": {
-            "BRCas\\AC\\": "src/",
-            "BRCas\\CA\\": "shared/src/"
+            "BRCas\\AC\\": "src/"
         }
     },
     "authors": [
@@ -16,6 +15,9 @@
     "require": {
         "bhcosta90/php-shared": "^1.0"
     },
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    },
     "repositories": [
         {
             "type": "vcs",
@@ -23,7 +25,8 @@
         }
     ],
     "require-dev": {
-        "pestphp/pest": "^2.8"
+        "pestphp/pest": "^2.8",
+        "mockery/mockery": "^1.6"
     },
     "config": {
         "allow-plugins": {
