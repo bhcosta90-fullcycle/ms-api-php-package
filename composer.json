@@ -1,0 +1,17 @@
+{
+    "name": "bhcosta90/ms-api-php-package",
+    "description": "Pacote para trabalhar com o domínio da aplicação que vai envolver a API do Full Cycle",
+    "autoload": {
+        "psr-4": {
+            "BRCas\\AC\\": "src/",
+            "BRCas\\CA\\": "shared/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Costa",
+            "email": "bruno.costa@dafiti.com.br"
+        }
+    ],
+    "require": {}
+}
