@@ -21,5 +21,13 @@
             "type": "vcs",
             "url": "https://github.com/bhcosta90-fullcycle/php-shared"
         }
-    ]
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
