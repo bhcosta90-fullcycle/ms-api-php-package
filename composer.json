@@ -13,5 +13,13 @@
             "email": "bruno.costa@dafiti.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "bhcosta90/php-shared": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bhcosta90-fullcycle/php-shared"
+        }
+    ]
 }
